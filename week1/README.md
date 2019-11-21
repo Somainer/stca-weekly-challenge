@@ -3,7 +3,7 @@
 ### Arrays
 
 | # | Title | Source Code | Difficulty |
-|:---:|:---:|:---:|:---:|:---:|
+|:---:|:---:|:---:|:---:|
 | 1   | [Two Sum](https://leetcode-cn.com/problems/two-sum/) | [Scala](https://github.com/Somainer/stca-weekly-challenge/tree/master/week1/1-two-sum/twoSum.scala) | Easy |
 | 53  | [Maxium Subarray](https://leetcode-cn.com/problems/maximum-subarray/) | [Scala](https://github.com/Somainer/stca-weekly-challenge/tree/master/week1/53-max-subarray/maxSubArray.scala) | Easy |
 | 121 | [Best Time to Buy and Sell Stock](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/) | [Scala](https://github.com/Somainer/stca-weekly-challenge/tree/master/week1/121-max-profit/maxProfit.scala) | Easy |
