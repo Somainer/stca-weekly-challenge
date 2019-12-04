@@ -1,0 +1,57 @@
+INFO  time: initialize in 1.32s
+WARN  no build tool detected in workspace 'D:\Projects\STCA Intern Hub\stca-weekly-challenge'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build target: D:\Projects\STCA Intern Hub\stca-weekly-challenge\week1\1-two-sum\twoSum.scala
+WARN  no build target: D:\Projects\STCA Intern Hub\stca-weekly-challenge\week1\53-max-subarray\53.maxsubarray.scala
+WARN  no build target: D:\Projects\STCA Intern Hub\stca-weekly-challenge\week1\53-max-subarray\maxSubArray.scala
+WARN  no build target: D:\Projects\STCA Intern Hub\stca-weekly-challenge\week1\33.search.scala
+INFO  no build target: using presentation compiler with only scala-library
+WARN  no build target: D:\Projects\STCA Intern Hub\stca-weekly-challenge\week1\33-search\33.search.scala
+WARN  no build target: D:\Projects\STCA Intern Hub\stca-weekly-challenge\week1\11-max-area\11.maxarea.scala
+WARN  no build target: D:\Projects\STCA Intern Hub\stca-weekly-challenge\week1\11-max-area\maxArea.scala
+WARN  no build target: D:\Projects\STCA Intern Hub\stca-weekly-challenge\week1\33-search\search.scala
+WARN  no build target: D:\Projects\STCA Intern Hub\stca-weekly-challenge\week1\42-trap-rain-water\42.traprainwater.scala
+WARN  no build target: D:\Projects\STCA Intern Hub\stca-weekly-challenge\week1\42-trap-rain-water\trapRainWater.scala
+WARN  no build target: D:\Projects\STCA Intern Hub\stca-weekly-challenge\week1\54-sprial-order\54.sprialorder.scala
+WARN  no build target: D:\Projects\STCA Intern Hub\stca-weekly-challenge\week1\54-sprial-order\sprialOrder.scala
+WARN  no build target: D:\Projects\STCA Intern Hub\stca-weekly-challenge\week1\121-max-profit\121.maxprofit.scala
+WARN  no build target: D:\Projects\STCA Intern Hub\stca-weekly-challenge\week1\121-max-profit\maxprofit.scala
+WARN  no build target: D:\Projects\STCA Intern Hub\stca-weekly-challenge\week1\121-max-profit\maxProfit.scala
+INFO  shutting down Metals
+INFO  time: initialize in 1.24s
+WARN  no build tool detected in workspace 'D:\Projects\STCA Intern Hub\stca-weekly-challenge'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build target: D:\Projects\STCA Intern Hub\stca-weekly-challenge\week3\94-binary-tree-inorder-traversal\inorderTraversal.scala
+WARN  no build target: D:\Projects\STCA Intern Hub\stca-weekly-challenge\week3\107-binary-tree-level-order-traversal-ii\levelOrderBottom.scala
+INFO  no build target: using presentation compiler with only scala-library
+WARN  no build target: D:\Projects\STCA Intern Hub\stca-weekly-challenge\week3\107-binary-tree-level-order-traversal-ii\levelOrderBottom.scala
+WARN  no build target: D:\Projects\STCA Intern Hub\stca-weekly-challenge\week3\94-binary-tree-inorder-traversal\inorderTraversal.scala
+WARN  no build tool detected in workspace 'D:\Projects\STCA Intern Hub\stca-weekly-challenge'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace 'D:\Projects\STCA Intern Hub\stca-weekly-challenge'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace 'D:\Projects\STCA Intern Hub\stca-weekly-challenge'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace 'D:\Projects\STCA Intern Hub\stca-weekly-challenge'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace 'D:\Projects\STCA Intern Hub\stca-weekly-challenge'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace 'D:\Projects\STCA Intern Hub\stca-weekly-challenge'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace 'D:\Projects\STCA Intern Hub\stca-weekly-challenge'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace 'D:\Projects\STCA Intern Hub\stca-weekly-challenge'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build target: D:\Projects\STCA Intern Hub\stca-weekly-challenge\week3\94-binary-tree-inorder-traversal\inorderTraversal.scala
+WARN  no build target: D:\Projects\STCA Intern Hub\stca-weekly-challenge\week3\95-unique-binary-search-trees-ii\generateTrees.scala
+WARN  no build target: D:\Projects\STCA Intern Hub\stca-weekly-challenge\week3\95-unique-binary-search-trees-ii\generateTrees.scala
+WARN  no build target: D:\Projects\STCA Intern Hub\stca-weekly-challenge\week3\107-binary-tree-level-order-traversal-ii\levelOrderBottom.scala
+WARN  no build target: D:\Projects\STCA Intern Hub\stca-weekly-challenge\week3\112-path-sum\hasPathSum.scala
+WARN  no build target: D:\Projects\STCA Intern Hub\stca-weekly-challenge\week3\112-path-sum\hasPathSum.scala
+WARN  no build target: D:\Projects\STCA Intern Hub\stca-weekly-challenge\week3\124-binary-tree-maximum-path-sum\maxPathSum.scala
+WARN  no build target: D:\Projects\STCA Intern Hub\stca-weekly-challenge\week3\124-binary-tree-maximum-path-sum\maxPathSum.scala
+WARN  no build target: D:\Projects\STCA Intern Hub\stca-weekly-challenge\week3\144-binary-tree-preorder-traversal\preorderTraversal.scala
+WARN  no build target: D:\Projects\STCA Intern Hub\stca-weekly-challenge\week3\144-binary-tree-preorder-traversal\preorderTraversal.scala
+WARN  no build target: D:\Projects\STCA Intern Hub\stca-weekly-challenge\week3\145-binary-tree-postorder-traversal\postorderTraversal.scala
+WARN  no build target: D:\Projects\STCA Intern Hub\stca-weekly-challenge\week3\145-binary-tree-postorder-traversal\postorderTraversal.scala
+WARN  no build target: D:\Projects\STCA Intern Hub\stca-weekly-challenge\week3\226-invert-binary-tree\invertTree.scala
+WARN  no build target: D:\Projects\STCA Intern Hub\stca-weekly-challenge\week3\226-invert-binary-tree\invertTree.scala
+WARN  no build target: D:\Projects\STCA Intern Hub\stca-weekly-challenge\week3\94-binary-tree-inorder-traversal\inorderTraversal.scala
+WARN  no build target: D:\Projects\STCA Intern Hub\stca-weekly-challenge\week3\95-unique-binary-search-trees-ii\generateTrees.scala
+WARN  no build target: D:\Projects\STCA Intern Hub\stca-weekly-challenge\week3\107-binary-tree-level-order-traversal-ii\levelOrderBottom.scala
+WARN  no build target: D:\Projects\STCA Intern Hub\stca-weekly-challenge\week3\112-path-sum\hasPathSum.scala
+WARN  no build target: D:\Projects\STCA Intern Hub\stca-weekly-challenge\week3\124-binary-tree-maximum-path-sum\maxPathSum.scala
+WARN  no build target: D:\Projects\STCA Intern Hub\stca-weekly-challenge\week3\144-binary-tree-preorder-traversal\preorderTraversal.scala
+WARN  no build target: D:\Projects\STCA Intern Hub\stca-weekly-challenge\week3\145-binary-tree-postorder-traversal\postorderTraversal.scala
+WARN  no build target: D:\Projects\STCA Intern Hub\stca-weekly-challenge\week3\226-invert-binary-tree\invertTree.scala
+WARN  no build target: D:\Projects\STCA Intern Hub\stca-weekly-challenge\week3\112-path-sum\hasPathSum.scala

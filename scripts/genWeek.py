@@ -117,7 +117,9 @@ def make_problem_dir(detail: dict):
     return code, f'{dir_name}/{file_name}'
 
 if __name__ == "__main__":
-    from week2 import week_num, problem_urls
+    # from week3 import week_num, problem_urls
+    week_num = 1 # type: Int
+    problem_urls = [] # type: List[str]
 
     make_week_dir(week_num, problem_urls)
     
