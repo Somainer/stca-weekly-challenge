@@ -3,6 +3,8 @@
 current/
 output/
 
+.metals/
+
 .DS_Store
 
 *.pyc

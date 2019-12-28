@@ -92,7 +92,8 @@ def get_leetcode_description(url: str):
     return fetch_detail_by_slug(title_slug)
 
 def get_file_name(detail: dict):
-    name = json.loads(detail['metaData'])['name']
+    meta_data = json.loads(detail['metaData'])
+    name = meta_data.get('name', meta_data.get('classname', detail['title'].replace(' ', '').capitalize()))
     return f'{name}.{FILE_EXT}'
 
 def find_code_snippet(detail: dict, target: str):
