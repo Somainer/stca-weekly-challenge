@@ -3,6 +3,7 @@ from pathlib import Path
 import requests
 import os
 import json
+from typing import Union
 
 TARGET_LANGUAGE = 'scala'
 FILE_EXT = 'scala'
@@ -46,13 +47,15 @@ def make_week_dir(week: int, problem_urls: list):
         f.write(f'## Week {week}\n\n\n')
         f.write('| # | Title | Source Code | Difficulty |\n|:---:|:---:|:---:|:---:|\n')
 
-        for detail, url in zip(details, problem_urls):
-            print(f"#{detail['questionId']}: {detail['title']}")
+        for detail in details:
+            idx = detail['questionFrontendId']
+            print(f"#{idx}: {detail['title']}")
             if detail['isPaidOnly']:
                 print('Is paid only, skipping')
                 continue
             code, path = make_problem_dir(detail)
-            idx = detail['questionId']
+            slug = detail['titleSlug']
+            url = f'https://leetcode-cn.com/problems/{slug}/'
             title = f"[{detail['title']}]({url})"
             source = f"[{code['lang']}]({week_repo + path})"
             difficulty = detail['difficulty']
@@ -87,9 +90,34 @@ def fetch_detail_by_slug(slug):
         'Referer': f'https://leetcode-cn.com/{slug}/'
     }).json()['data']['question']
 
-def get_leetcode_description(url: str):
-    title_slug = [x for x in url.split('/') if x][-1]
-    return fetch_detail_by_slug(title_slug)
+PROBLEM_CACHE = None
+@retried(5)
+def fetch_all_problems():
+    global PROBLEM_CACHE
+    if PROBLEM_CACHE:
+        return PROBLEM_CACHE
+    result = requests.get('https://leetcode-cn.com/api/problems/all/').json()['stat_status_pairs']
+    
+    PROBLEM_CACHE = {
+        q['stat']['frontend_question_id']: {
+            'id': q['stat']['frontend_question_id'],
+            'slug': q['stat']['question__title_slug'],
+        }
+        for q in result
+    }
+    return PROBLEM_CACHE
+
+@retried(5)
+def fetch_detail_by_id(idx: int):
+    slug = fetch_all_problems()[str(idx)]['slug']
+    return fetch_detail_by_slug(slug)
+
+def get_leetcode_description(url: Union[str, int]):
+    if isinstance(url, str):
+        title_slug = [x for x in url.split('/') if x][-1]
+        return fetch_detail_by_slug(title_slug)
+    else:
+        return fetch_detail_by_id(url)
 
 def get_file_name(detail: dict):
     meta_data = json.loads(detail['metaData'])
@@ -103,7 +131,7 @@ def find_code_snippet(detail: dict, target: str):
     return None
 
 def make_problem_dir(detail: dict):
-    dir_name = f"{detail['questionId']}-{detail['titleSlug']}"
+    dir_name = f"{detail['questionFrontendId']}-{detail['titleSlug']}"
     problem_dir = week_dir / dir_name
     os.mkdir(problem_dir)
     file_name = get_file_name(detail)
@@ -120,7 +148,7 @@ def make_problem_dir(detail: dict):
 if __name__ == "__main__":
     # from week3 import week_num, problem_urls
     week_num = 1 # type: Int
-    problem_urls = [] # type: List[str]
+    problem_urls = [] # type: List[Union[str, int]]
 
     make_week_dir(week_num, problem_urls)
     
