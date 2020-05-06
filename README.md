@@ -25,3 +25,4 @@ Mainly uses `Scala`.
 18. [Week 18](https://github.com/Somainer/stca-weekly-challenge/tree/master/week18)
 19. [Week 19](https://github.com/Somainer/stca-weekly-challenge/tree/master/week19)
 20. [Week 20](https://github.com/Somainer/stca-weekly-challenge/tree/master/week20)
+21. [Week 21](https://github.com/Somainer/stca-weekly-challenge/tree/master/week21)
