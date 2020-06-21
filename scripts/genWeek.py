@@ -131,7 +131,7 @@ def find_code_snippet(detail: dict, target: str):
     return None
 
 def make_problem_dir(detail: dict):
-    dir_name = f"{detail['questionFrontendId']}-{detail['titleSlug']}"
+    dir_name = f"{detail['questionId']}-{detail['titleSlug']}"
     problem_dir = week_dir / dir_name
     os.mkdir(problem_dir)
     file_name = get_file_name(detail)
@@ -146,9 +146,9 @@ def make_problem_dir(detail: dict):
     return code, f'{dir_name}/{file_name}'
 
 if __name__ == "__main__":
-    # from week3 import week_num, problem_urls
-    week_num = 1 # type: Int
-    problem_urls = [] # type: List[Union[str, int]]
+    from week3 import week_num, problem_urls
+    # week_num = 1 # type: Int
+    # problem_urls = [] # type: List[Union[str, int]]
 
     make_week_dir(week_num, problem_urls)
     
