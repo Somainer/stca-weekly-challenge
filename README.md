@@ -2,7 +2,7 @@
 
 Try to solve probolems in a functional way (if possible).
 
-Mainly uses `Scala`.
+Mainly uses `Scala` and `Rust` (stating from Week 30).
 
 
 1. [Week 1](https://github.com/Somainer/stca-weekly-challenge/tree/master/week1)
@@ -35,3 +35,4 @@ Mainly uses `Scala`.
 28. [Week 29](https://github.com/Somainer/stca-weekly-challenge/tree/master/week29)
 29. [Week 30](https://github.com/Somainer/stca-weekly-challenge/tree/master/week30)
 30. [Week 31](https://github.com/Somainer/stca-weekly-challenge/tree/master/week31)
+31. [Week 32](https://github.com/Somainer/stca-weekly-challenge/tree/master/week32)

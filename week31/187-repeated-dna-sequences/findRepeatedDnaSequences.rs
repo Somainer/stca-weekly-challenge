@@ -12,7 +12,7 @@ impl Solution {
                 let entry = occur.entry(last).or_insert(0);
                 *entry += 1;
                 if *entry == 2 {
-                    result.push(s[(i - 9) as usize..(i + 1) as usize].to_string());
+                    result.push(s[(i - 9) as usize..=i as usize].to_string());
                 }
             }
         }
