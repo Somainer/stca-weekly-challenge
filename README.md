@@ -36,3 +36,4 @@ Mainly uses `Scala` and `Rust` (stating from Week 30).
 29. [Week 30](https://github.com/Somainer/stca-weekly-challenge/tree/master/week30)
 30. [Week 31](https://github.com/Somainer/stca-weekly-challenge/tree/master/week31)
 31. [Week 32](https://github.com/Somainer/stca-weekly-challenge/tree/master/week32)
+32. [Week 33](https://github.com/Somainer/stca-weekly-challenge/tree/master/week33)
